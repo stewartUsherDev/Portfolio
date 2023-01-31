@@ -16,6 +16,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
+    scroll-behavior: smooth;
+    transition: 1000ms;
 }
 
 .navBar {
@@ -26,7 +28,7 @@
     align-items: center;
     position: fixed;
     bottom: 0px;
-    height: 50px;
+    height: 5vh;
 }
 
 .name {
@@ -35,15 +37,16 @@
 
 .name a{
     text-decoration: none;
+    color: black;
 }
 
 .itemsContainer{
     position: absolute;
-    transition: 1500ms;
+    transition: 1300ms;
     width: 100%;
     background-color: antiquewhite;
     position: fixed;
-    bottom: 50px;
+    bottom: 5vh;
 }
 
 .itemsList{
@@ -74,6 +77,78 @@
     background-color: antiquewhite;
 }
 
+.presentationContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightcoral;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.skillsContainer {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+}
+
+.frontSkillsContainer{
+    background-color: rgb(000, 000, 000,0.5);
+    height: 30%;
+    width: 100%;
+}
+
+.backSkillsContainer{
+    background-color: rgb(000, 000, 000,0.5);
+    height: 30%;
+    width: 100%;
+}
+
+.extraSkillsContainer{
+    background-color: rgb(000, 000, 000,0.5);
+    height: 30%;
+    width: 100%;
+}
+
+.proyectsContainer{
+    background-color: orangered;
+    height: 100vh;
+    width: 100%;
+}
+
+.contactContainer {
+    background-color: brown;
+    height: 100vh;
+    width: 100%;
+}
+
+/* .scrollContainer{
+    height: 10vh;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollContainer a {
+    text-decoration: none;
+    color: aliceblue;
+} */
 
 @media(min-width:480px) {
 
