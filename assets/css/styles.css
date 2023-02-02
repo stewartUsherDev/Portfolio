@@ -145,7 +145,7 @@
 
 
 .proyectsContainer{
-    background-color: orangered;
+    background-color: rgb(50, 50, 50);
     height: 100vh;
     width: 100%;
 }
@@ -154,6 +154,79 @@
     background-color: brown;
     height: 100vh;
     width: 100%;
+}
+
+.proyectsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.proyectsTitleContainer{
+    display: block;
+    width: 100%;
+    height: 5vh;
+    top: 0;
+    background-color: aliceblue;
+}
+
+.individualProyectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.proyect_one{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 10%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.proyect_two{
+    width: 90%;
+    height: 10%;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.proyect_three{
+    width: 90%;
+    height: 10%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.proyect_four{
+    width: 90%;
+    height: 10%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.proyect_four:hover{
+    background-color: rgb(50, 50, 50);
+    opacity: 0.5;
+}
+
+.viewMore {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(100, 100, 100);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
 }
 
 

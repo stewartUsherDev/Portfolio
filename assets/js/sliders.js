@@ -60,7 +60,7 @@ window.addEventListener("load", () => {
 
     setInterval(() => {
         moveRightFront()
-    }, 3000)
+    }, 3500)
 
 });
 
@@ -127,7 +127,7 @@ window.addEventListener("load",()=>{
 
     setInterval(() => {
         moveRightBack()
-    }, 3000)
+    }, 3500)
 
 });
 
@@ -194,7 +194,7 @@ window.addEventListener("load",()=>{
 
     setInterval(() => {
         moveRightExtra()
-    }, 3000)
+    }, 3500)
 
 
 })
