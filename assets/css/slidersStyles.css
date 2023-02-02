@@ -1,0 +1,203 @@
+.slider__container__front{
+    width: 90%;
+    max-width: 900px; /*Puede variar*/
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__front{
+    display: flex;
+    width: 400%; /* Porcentaje segun cantidad de imagenes que tenga*/
+    height: 23vh;
+    margin-left: -100%;
+}
+
+.slider__section__front{
+    width: 100%;
+}
+
+.slider__card__front{
+    background: #fff;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .slider__card p {
+    margin-right: 80px;
+}
+
+.slider__img{
+    margin-right: 10px;
+    display: block;
+    width: 65%;
+    height: 65%;
+    object-fit: cover;
+} */
+
+.slider__btn__front{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn__front:hover{
+    background: #fff;
+}
+
+.slider__btn--left--front{
+    left: 10px;
+}
+
+.slider__btn--right--front{
+    right: 10px;
+}
+
+.slider__container__back{
+    width: 90%;
+    max-width: 900px; /*Puede variar*/
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__back{
+    display: flex;
+    width: 400%; /* Porcentaje segun cantidad de imagenes que tenga*/
+    height: 23vh;
+    margin-left: -100%;
+}
+
+.slider__section__back{
+    width: 100%;
+}
+
+.slider__card__back{
+    background: #fff;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .slider__card p {
+    margin-right: 80px;
+}
+
+.slider__img{
+    margin-right: 10px;
+    display: block;
+    width: 65%;
+    height: 65%;
+    object-fit: cover;
+} */
+
+.slider__btn__back{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn__back:hover{
+    background: #fff;
+}
+
+.slider__btn--left--back{
+    left: 10px;
+}
+
+.slider__btn--right--back{
+    right: 10px;
+}
+
+.slider__container__extra{
+    width: 90%;
+    max-width: 900px; /*Puede variar*/
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__extra{
+    display: flex;
+    width: 400%; /* Porcentaje segun cantidad de imagenes que tenga*/
+    height: 23vh;
+    margin-left: -100%;
+}
+
+.slider__section__extra{
+    width: 100%;
+}
+
+.slider__card__extra{
+    background: #fff;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .slider__card p {
+    margin-right: 80px;
+}
+
+.slider__img{
+    margin-right: 10px;
+    display: block;
+    width: 65%;
+    height: 65%;
+    object-fit: cover;
+} */
+
+.slider__btn__extra{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn__extra:hover{
+    background: #fff;
+}
+
+.slider__btn--left--extra{
+    left: 10px;
+}
+
+.slider__btn--right--extra{
+    right: 10px;
+}

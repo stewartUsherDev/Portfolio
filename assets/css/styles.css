@@ -76,16 +76,20 @@
 
 
 .main {
-    background-color: antiquewhite;
+    background-color: black;
 }
 
 .presentationContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: blue;
     height: 100vh;
     width: 100%;
+    background-image: url("../images/thumb-1920-559128.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    background-color: black;
 }
 
 .aboutContainer{
@@ -105,6 +109,9 @@
     width: 100%;
 }
 
+.skillsContainer h2 {
+}
+
 .frontSkillsContainer{
     background-color: rgb(000, 000, 000,0.5);
     height: 30%;
@@ -112,6 +119,10 @@
     margin-right: 4vw;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.frontSkillsContainer h3 {
+    margin-left: 10px;
 }
 
 .backSkillsContainer{
