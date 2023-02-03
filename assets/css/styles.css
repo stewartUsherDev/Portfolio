@@ -79,11 +79,15 @@
     background-color: black;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                            Section Presentation                            */
+/* -------------------------------------------------------------------------- */
+
 .presentationContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     background-image: url("../images/thumb-1920-559128.jpg");
     background-repeat: no-repeat;
@@ -92,20 +96,28 @@
     background-color: black;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                Section About                               */
+/* -------------------------------------------------------------------------- */
+
 .aboutContainer{
     display: flex;
     flex-wrap: wrap;
     background-color: lightcoral;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                               Section Skills                               */
+/* -------------------------------------------------------------------------- */
 
 .skillsContainer {
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     background-color: grey;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
 }
 
@@ -144,91 +156,85 @@
 }
 
 
+/* -------------------------------------------------------------------------- */
+/*                           Section recent proyects                          */
+/* -------------------------------------------------------------------------- */
+
 .proyectsContainer{
     background-color: rgb(50, 50, 50);
-    height: 100vh;
+    height: 95vh;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
+
+.acordeon{
+    width: 90%;
+    max-height: 95vh;
+    padding: 2em;
+    background-color: #fff;
+}
+
+.acordeon .acordeonBlock{
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #ddd;
+}
+
+.acordeon .acordeonBlock .acordeonTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.acordeon .acordeonBlock .acordeonTitle p{
+    display: inline;
+}
+
+.acordeon .acordeonBlock .acordeonTitle i{
+    display: inline;
+}
+
+.acordeon .text {
+    height: 0;
+    padding: 0em;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.acordeon .acordeonBlock.active .text{
+    height: 4em;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                               Contact Section                              */
+/* -------------------------------------------------------------------------- */
 
 .contactContainer {
     background-color: brown;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
 }
 
-.proyectsContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.proyectsTitleContainer{
-    display: block;
-    width: 100%;
+#noneSection {
     height: 5vh;
-    top: 0;
-    background-color: aliceblue;
+    display: block;
+    background-color: salmon;
+    bottom: 0;
 }
 
-.individualProyectContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80%;
+.chevromNone {
+    color: #ddd;
+    display: none;
+    transition: 500ms;
 }
 
-.proyect_one{
-    padding-left: 3vw;
-    padding-right: 3vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    height: 10%;
-    background-color: #fff;
-    border-radius: 10px;
-}
-
-.proyect_two{
-    width: 90%;
-    height: 10%;
-    background-color: #fff;
-    border-radius: 10px;
-
-}
-
-.proyect_three{
-    width: 90%;
-    height: 10%;
-    background-color: #fff;
-    border-radius: 10px;
-}
-
-.proyect_four{
-    width: 90%;
-    height: 10%;
-    background-color: #fff;
-    border-radius: 10px;
-}
-
-.proyect_four:hover{
-    background-color: rgb(50, 50, 50);
-    opacity: 0.5;
-}
-
-.viewMore {
-    display: flex;
-    height: 50px;
-    width: 200px;
-    background-color: rgb(100, 100, 100);
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5vh;
-}
-
+/* -------------------------------------------------------------------------- */
+/*                                MediaQueries                                */
+/* -------------------------------------------------------------------------- */
 
 @media(min-width:480px) {
 

@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
 
     sliderFront.insertAdjacentElement("afterbegin", sliderFrontSectionLast)
 
-    function moveRightFront() {
+    function moveRightFront() { //function to move right
         let sliderFrontSectionFirst = document.querySelectorAll(".slider__section__front")[0]
         sliderFront.style.marginLeft = "-200%"
         sliderFront.style.transition = "all 0.5s"
@@ -27,7 +27,7 @@ window.addEventListener("load", () => {
 
     }
 
-    function moveLeftFront() {
+    function moveLeftFront() { //Function to move left
         let sliderFrontSection = document.querySelectorAll(".slider__section__front")
         let sliderFrontSectionLast = sliderFrontSection[sliderFrontSection.length - 1]
         let sliderFrontSectionFirst = document.querySelectorAll(".slider__section__front")[0]
@@ -42,7 +42,7 @@ window.addEventListener("load", () => {
 
     }
 
-    btnRight.addEventListener("click", () => {
+    btnRight.addEventListener("click", () => {  //function of the right button
         moveRightFront()
         btnRight.classList.add("none")
         setTimeout(() => {
@@ -50,7 +50,7 @@ window.addEventListener("load", () => {
         }, 500)
     })
 
-    btnLeft.addEventListener("click", () => {
+    btnLeft.addEventListener("click", () => {  //function of the left button
         moveLeftFront()
         btnLeft.classList.add("none")
         setTimeout(() => {
@@ -58,7 +58,7 @@ window.addEventListener("load", () => {
         }, 500)
     })
 
-    setInterval(() => {
+    setInterval(() => {  //interval to autoslide
         moveRightFront()
     }, 3500)
 
