@@ -9,4 +9,13 @@ window.addEventListener("load",()=>{
     })
 
 
+    const viewMoreBtn = document.querySelector(".viewMoreContainer")
+
+
+    /* --------- Redirection of the view more btn in te proyect section --------- */
+    viewMoreBtn.addEventListener("click",()=>{
+        window.location.replace("https://github.com/Matiasstewart?tab=repositories")
+    })
+
+
 })

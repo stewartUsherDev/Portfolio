@@ -170,6 +170,15 @@
     flex-direction: column;
 }
 
+.proyectsContainer .titleContainer{
+    height: 5vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
 .acordeon{
     width: 90%;
     max-height: 95vh;
@@ -190,21 +199,56 @@
 
 .acordeon .acordeonBlock .acordeonTitle p{
     display: inline;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .acordeon .acordeonBlock .acordeonTitle i{
     display: inline;
 }
 
-.acordeon .text {
+.acordeon .descriptionContainer {
     height: 0;
     padding: 0em;
     overflow: hidden;
     transition: all .5s ease;
 }
 
-.acordeon .acordeonBlock.active .text{
-    height: 4em;
+.acordeon .acordeonBlock.active .descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20em;
+}
+
+.acordeon .acordeonBlock.active .descriptionContainer img {
+    margin-top: 2vh;
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+}
+
+.acordeon .acordeonBlock.active .descriptionContainer img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.technologiesContainer .technologies i{
+    font-size: 1rem;
+}
+
+.viewMoreContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 5vh;
+    width: 40vw;
+}
+
+.viewMoreContainer:hover{
+    cursor: pointer;
+    background-color: #ddd;
 }
 
 
