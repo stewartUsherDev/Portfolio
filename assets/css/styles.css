@@ -103,7 +103,7 @@
 .aboutContainer{
     display: flex;
     flex-wrap: wrap;
-    background-color: lightcoral;
+    background-color: grey;
     height: 95vh;
     width: 100%;
 }
